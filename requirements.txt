@@ -1,0 +1,16 @@
+# --- Core Framework ---
+numpy
+psutil
+mss                   # High-speed screen capture
+
+# --- OS Backends ---
+pywinauto             # Windows UIA (Windows only)
+python-xlib           # X11 Protocol (Linux only)
+ewmh                  # Extended Window Manager Hints (Linux only)
+pywin32               # COM/Win32 APIs (Windows only)
+
+# --- Vision & OCR ---
+opencv-python         # Image processing & Template matching
+paddleocr             # High-accuracy structured OCR
+paddlepaddle          # CPU/GPU backend for PaddleOCR
+pillow                # Image manipulation for audit logs
