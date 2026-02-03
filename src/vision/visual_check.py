@@ -110,14 +110,3 @@ async def interact_with_like(tweet_element, page):
         return True
 
     return False
-
-
-
-"""3. Implementation Checklist for Unsupervised Use
-
-    Template Snippet: Take a small screenshot (approx 20x20 pixels) of the unfilled heart icon on X and save it as data/templates/x_heart_unfilled.png.
-    Coordinates: Ensure your Chrome User Data path is properly escaped in your script: r"C:\Users\user0\AppData\Local\Google\Chrome\User Data".
-    MCP Tooling: Expose this "Visual Like" logic as an MCP tool so the Architect LLM can trigger it if the standard Playwright script reports a "Selector Not Found" error.
-
-4. Why this is "God-Mode" for X Automation
-By combining Playwright (for navigation) with OpenCV (for vision), your agent becomes immune to "Frontend Updates." If X changes the data-testid to data-random-string, your script will simply "see" the heart and click it anyway, just like a human would."""
